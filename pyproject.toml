@@ -1,3 +1,18 @@
-[build-system]
-requires = ["setuptools>=42", "wheel"]  # Tools needed to build the project
-build-backend = "setuptools.build_meta"
+[project]
+name = "type-enforcer"
+version = "0.0.1"
+authors = [
+  { name="Wajed Khan", email="wajed.abdul.khan@gmail.com" },
+]
+description = "A lightweight Python decorator to enforce type hints at runtime"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/WazedKhan/enforcer"
+Issues = "https://github.com/WazedKhan/enforcer/issues"

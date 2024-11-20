@@ -1,5 +1,5 @@
 import pytest
-from enforcer.enforce_types import enforce_types
+from src.enforce_types import enforce_types
 
 
 @enforce_types
