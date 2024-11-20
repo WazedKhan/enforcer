@@ -1,0 +1,3 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]  # Tools needed to build the project
+build-backend = "setuptools.build_meta"
