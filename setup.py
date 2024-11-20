@@ -8,7 +8,7 @@ current_dir = pathlib.Path(__file__).parent
 long_description = (current_dir / "README.md").read_text()
 
 setup(
-    name="type-enforcer",  # Package name
+    name="type_enforcer",  # Package name
     version="0.1.0",  # Version number
     packages=find_packages(),  # Automatically find packages
     install_requires=[],  # Specify dependencies here
