@@ -10,7 +10,7 @@
 
 ## Installation
 
-You can install Enforcer via pip (coming soon):
+You can install Enforcer via pip : `pip install static-type-enforcer==0.1.0`
 
 ```python
 from enforcer import enforce_types
